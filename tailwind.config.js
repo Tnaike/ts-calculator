@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      sans: ['"Poppins"', 'sans-serif'],
+      mono: ['"Inconsolata"', 'monospace'],
     },
     colors: {
       transparent: 'transparent',
