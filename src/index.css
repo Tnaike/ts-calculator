@@ -20,6 +20,18 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Inconsolata', sans-serif;
 }
 
+.appWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  background: #4f38de;
+  background: linear-gradient(to top, #6a11cb, #4f38de);
+  background: -webkit-linear-gradient(bottom, #6a11cb, #4f38de);
+  padding: 2rem 1rem;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

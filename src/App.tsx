@@ -1,24 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import CalculatorLogo from './assets/calculator-plus.png';
 
 function App() {
   return (
-    <div className='App'>
-      <header className='App-header'>
-        <img src={logo} className='App-logo' alt='logo' />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className='App-link'
-          href='https://reactjs.org'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='appWrapper'>
+      <div className='flex flex-col items-center gap-2'>
+        <img src={CalculatorLogo} alt='Calculator Plus Logo' />
+        <h1 className='font-semibold'>Calculator app</h1>
+      </div>
     </div>
   );
 }
